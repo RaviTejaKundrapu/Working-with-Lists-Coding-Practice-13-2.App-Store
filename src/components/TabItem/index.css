@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.tab-style {
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #6c7782;
+}
+
+.border-bottom-color {
+  border-bottom: 2px solid blue;
+}
+
+@media all and (min-width: 767px) {
+  .tab-style {
+    font-size: 23px;
+  }
+}

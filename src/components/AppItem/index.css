@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.appContainerSpecific {
+  background-color: #ffffff;
+  border-radius: 9px;
+  height: 100px;
+  width: 110px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.appimage {
+  height: 52px;
+  width: 56px;
+  margin: 7px;
+}
+
+.appname {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+@media all and (min-width: 767px) {
+  .appContainerSpecific {
+    height: 170px;
+    width: 150px;
+    margin: 8px;
+  }
+
+  .appimage {
+    height: 100px;
+    width: 120px;
+    margin: 7px;
+  }
+
+  .appname {
+    font-size: 22px;
+  }
+}
